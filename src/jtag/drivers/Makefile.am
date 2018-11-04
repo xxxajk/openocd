@@ -141,6 +141,9 @@ endif
 if OPENDOUS
 DRIVERFILES += %D%/opendous.c
 endif
+if T3JTAG
+DRIVERFILES += %D%/t3jtag.c
+endif
 if SYSFSGPIO
 DRIVERFILES += %D%/sysfsgpio.c
 endif

@@ -7,6 +7,9 @@ SUBSYSTEM!="usb|tty|hidraw", GOTO="openocd_rules_end"
 
 # Please keep this list sorted by VID:PID
 
+# t3jtag VOTI free for internal lab use 1000
+ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="03e8", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
 # opendous and estick
 ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="204f", MODE="660", GROUP="plugdev", TAG+="uaccess"
 

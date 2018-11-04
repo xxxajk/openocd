@@ -121,7 +121,8 @@ m4_define([USB1_ADAPTERS],
 m4_define([USB_ADAPTERS],
 	[[[osbdm], [OSBDM (JTAG only) Programmer], [OSBDM]],
 	[[opendous], [eStick/opendous JTAG Programmer], [OPENDOUS]],
-	[[aice], [Andes JTAG Programmer], [AICE]]])
+	[[aice], [Andes JTAG Programmer], [AICE]],
+	[[t3jtag], [PJRC Teensy 3.x as JTAG Programmer], [T3JTAG]]])
 
 m4_define([USB0_ADAPTERS],
 	[[[usbprog], [USBProg JTAG Programmer], [USBPROG]],
